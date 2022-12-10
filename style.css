@@ -43,7 +43,24 @@
 .navicons{
     width: 40vw;
     height: 8vh;
+    display: flex;
     /* background-color: rgb(244, 172, 172); */
+    align-items: center;
+    padding-left: 150px;
+}
+.naviconsizing{
+    width: 25px;
+    height: 25px;
+    padding: 0px 10px;
+}
+.naviprofileimg{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.naviconmessenger{
+    width: 30px;
+    height: 30px;
 }
 .maindiscon{
     /* display conatiner */
@@ -77,6 +94,7 @@
     height: auto;
     /* background-color: rgb(20, 13, 13); */
 }
+
 .posts{
     width: 35vw;
     height: auto;
@@ -96,9 +114,14 @@
 }
 .postimage{
     width: 35vw;
-    height: 550px;
+    height: auto;
     /* background-color: rgb(242, 168, 168); */
 }
+.postvideosize{
+    width: 35vW;
+    height: 550px;
+}
+
 .postfooter{
     width: 35vw;
 }
@@ -106,15 +129,29 @@
     width: 35px;
     height: 35px;
     padding: 0px 20px;
+    border-radius: 50%;
+    
 }
 .postimagesize{
     width: 35vw;
     height: 550px;
 }
+
+.postimagemark{
+    height: 620px;
+}
+
 .likesharecomment{
     width: 35vw;
     height: 45px;
     /* background-color: rgb(50, 28, 28); */
+    display: flex;
+    align-items: center;
+}
+.lsclogo{
+    width: 23px;
+    height: 23px;
+    padding: 0px 9px;
 }
 .postdiscription{
     width: 35vw;
@@ -124,7 +161,25 @@
     align-items: center;
 }
 .postdiscription p{
-    padding-left: 8px;
+    padding-left: 7px;
+}
+.postlikecount{
+    display: flex;
+    height: 35px;
+    align-items: center;
+}
+.postlikecount p{
+    padding-left: 7px;
+}
+.postimagesizevkpost2{
+    width: 35vw;
+    height: 650px;
+}
+.pslkctimg{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    padding-left: 6px;
 }
 .postscomment{
     width: 35vw;
@@ -213,4 +268,63 @@
 .storyboximg:hover{
     width: 200px;
     height: 100px;
+}
+
+/* suggestion container */
+.suggestincon{
+    padding:32px 40px;
+    box-sizing: border-box;
+}
+.upppersuggestdiv{
+    display: flex;
+    width: 300px;
+    height: 70px;
+    background-color: rgba(197, 196, 196, 0.359);
+    align-items: center;
+    border-radius: 6px;
+    /* justify-content: space-around; */
+}
+.upppersuggestdiv div p{
+    font-size: 15px;
+}
+.suggestupperimg{
+    height: 60px;
+    border-radius: 50%;
+    /* margin-right: 15px; */
+    margin: 0px 15px;
+}
+
+.lowersuggestdiv{
+    width: 300px;
+    height: 300px;
+    /* background-color: rgb(34, 32, 32); */
+    background-color: rgba(197, 196, 196, 0.359);
+    border-radius: 6px;
+}
+.suggmess{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.subconoflsdiv{
+    width: 300px;
+    height: 50px;
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+}
+.suggectionlowerimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0px 15px;
+}
+.suggestionnamepara{
+    display: flex;
+}
+.suggestionfollow{
+    margin-left: 55px;
+    color: #059bc9;
 }
